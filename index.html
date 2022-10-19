@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whats_Good</title>
+    <link rel="stylesheet" href="/style.css" />
+
+  </head>
+  <body>
+    <section class="chat__section">
+    
+      <div class="brand" >
+        <div class="b">
+            <img height="40" src="/wassup.png" alt="" />
+            <h1>What's_Good</h1>
+        </div>
+        <h1 id="namer"></h1>
+      </div>
+      <div id="messageArea"></div>
+      <div>
+        <textarea
+          id="textarea mytextarea"
+          cols="30"
+          rows="1"
+          placeholder="Write a message..."
+        ></textarea>
+      </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js" defer></script>
+
+  </body>
+</html>
