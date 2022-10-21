@@ -4,7 +4,8 @@
   "description": "Real Time chat app build using socket.io",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "server:prod" : "node server.js"
   },
   "keywords": [
     "irl(Chat",
